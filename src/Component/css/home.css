@@ -1,0 +1,24 @@
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+h1{
+    color: brown;
+}
+.bouton {
+    outline: none;
+    border: none;
+    width: 200px;
+}
+.bouton:hover {
+    outline: none;
+    border: none;
+    width: 300px;
+    font-size: x-large;
+    background-color: rgb(26, 26, 46);
+    box-shadow: rgb(26, 26, 46) 12px 12px 12px 12px ,
+    rgb(26, 26, 46) 2px 2px 2px 2px;
+}

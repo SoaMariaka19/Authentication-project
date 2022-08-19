@@ -1,0 +1,145 @@
+.login {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(#831fd4, #8243b3);
+    position: absolute;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.login_box {
+    width: 1050px;
+    height: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+.login_box .left{
+  width: 41%;
+  height: 100%;
+  padding: 25px 25px;
+  
+}
+.login_box .right{
+  width: 59%;
+  height: 100%  
+}
+.left .top_link a {
+    color: #452A5A;
+    font-weight: 400;
+}
+.left .top_link{
+  height: 20px
+}
+.left .contact{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+  box-shadow: #332042 2px 2px 1px 1px ,#4267B2 1px 1px 3px 3px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 60px;
+	width: 60px;
+  margin-top: 32px;
+  margin-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.left h3{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.fa-facebook {
+  color:  #4267B2;
+}
+.fa-github {
+  color:  #000;
+}
+.left input {
+    border: none;
+    width: 80%;
+    margin: 15px 0px;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    outline: none;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+.left{
+	background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+.submit {
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    background: #831fd4;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    outline: none;
+}
+.right {
+	background: linear-gradient(212.38deg , rgba(175, 70, 189, 0.71) 100%);
+	color: #fff;
+  background-image: url(/src/Component/images/wp3392469-computer-s-cience-wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	position: relative;
+}
+
+.right .right-text{
+  height: 100%;
+  position: relative;
+  transform: translate(0%, 45%);
+}
+.right-text h2{
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #d8a4ff ;
+}
+.right-text h5{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+.top_link img {
+    width: 28px;
+    padding-right: 7px;
+    margin-top: -3px;
+}
